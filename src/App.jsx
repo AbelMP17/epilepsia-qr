@@ -21,7 +21,7 @@ const DEFAULT_PATIENT = {
   alergias: ["Penicilina"],
   medicamentos: ["Valproato 500 mg cada 12 h"],
   notas:
-    "Tras una crisis puede estar desorientada 10–15 min. No forzar incorporación.",
+    "Tras una crisis puede estar desorientado 10–15 min. No forzar incorporación.",
   contacto: {
     nombre: "Ana María Cuartero (Madre)",
     telefono: "+34 600 123 456",
