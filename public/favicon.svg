@@ -1,0 +1,24 @@
+<!-- public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Icono emergencia epilepsia">
+  <title>Emergencia Epilepsia</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f87171"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fondo con esquinas redondeadas -->
+  <rect x="16" y="16" width="224" height="224" rx="48" fill="url(#g)"/>
+
+  <!-- cruz médica -->
+  <g fill="#fff">
+    <rect x="112" y="56" width="32" height="144" rx="6"/>
+    <rect x="56" y="112" width="144" height="32" rx="6"/>
+  </g>
+
+  <!-- rayo (knockout visual en rojo) -->
+  <path d="M144 60 L118 116 H146 L112 196 L138 140 H110 Z"
+        fill="#ef4444" stroke="#ef4444"
+        stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
